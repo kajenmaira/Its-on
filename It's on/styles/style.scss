@@ -1,1 +1,20 @@
 @use 'modules' as *;
+
+@use 'modules' as *;
+
+body {
+    background: #15465F;
+}
+
+.bodyloadingscreen {
+    background: #F4F1B7;
+}
+
+a{
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+  }
+  
