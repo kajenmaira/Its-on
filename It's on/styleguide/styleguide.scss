@@ -1,3 +1,10 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
 body {
   background-color: #e5ab0f;
 }
@@ -25,6 +32,7 @@ h3 {
   font-size: 1.5em;
   color: rgb(36, 35, 35);
 }
+
 .menu__link:hover,
 .menu__link.--active {
   font-weight: bold;

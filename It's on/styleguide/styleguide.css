@@ -1,3 +1,9 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto', sans-serif;
+*/
 body {
   background-color: #e5ab0f;
 }
@@ -155,7 +161,6 @@ h3 {
 h3 {
   margin: 0;
 }
-<<<<<<< Updated upstream
 
 .button-preview {
   display: grid;
@@ -200,5 +205,3 @@ h3 {
   height: 20px;
   width: 20px;
 }
-=======
->>>>>>> Stashed changes
