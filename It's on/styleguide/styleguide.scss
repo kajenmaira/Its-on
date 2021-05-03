@@ -1,43 +1,107 @@
 body {
-    background-color: rgb(196, 196, 226);
+  background-color: rgb(196, 196, 226);
 }
 
-
-
-
 .menu {
-    text-align: right;
-    display: flex;
-    justify-content: flex-start;
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .menu__link {
-    display: block;
-    padding: 0.5rem 2rem;
-    color: rgb(14 14 14);
-    text-decoration: none;
+  display: block;
+  padding: 0.5rem 2rem;
+  color: rgb(14 14 14);
+  text-decoration: none;
 }
-.menu__link:hover, .menu__link.--active {
-    color: rgb(173 31 31);
-    font-weight: bold;
-    top: 0;
-    left: 0;
+.menu__link:hover,
+.menu__link.--active {
+  color: rgb(173 31 31);
+  font-weight: bold;
+  top: 0;
+  left: 0;
 }
-
 
 .menu__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 100vw;
-    padding: 1rem 2rem;
-    background-color: #ebebeb;
-    margin: 0 0 1rem 0;
-    min-width: 300px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  padding: 1rem 2rem;
+  background-color: #ebebeb;
+  margin: 0 0 1rem 0;
+  min-width: 300px;
+  justify-items: center;
 }
 
 .menu__item {
-    display: block;
+  display: block;
+}
+.cp {
+  display: flex;
+}
+.module {
+  display: grid;
+  grid-template-rows: 2% 1fr 2% 1fr;
+  grid-template-columns: 15% 1fr 1fr 1fr;
+  grid-template-areas:
+    "brand . bg ."
+    "cp-brand cp-brand cp-bg cp-bg"
+    "btns . func ."
+    "cp-btns cp-btns cp-func cp-func";
+}
+.title__brand {
+  grid-area: brand;
+}
+.color-preview__brand {
+  grid-area: cp-brand;
+}
+.title__bg {
+  grid-area: bg;
+}
+.color-preview__bg {
+  grid-area: cp-bg;
+}
+.title__btns {
+  grid-area: btns;
+}
+.color-preview__btns {
+  grid-area: cp-btns;
+}
+.title__func {
+  grid-area: func;
+}
+.color-preview__func {
+  grid-area: cp-func;
 }
 
-
+.block {
+  width: 200px;
+  height: 100px;
+}
+.teal {
+  background-color: teal;
+}
+.deep-yellow {
+  background-color: #eaa900;
+}
+.dark-blue {
+  background-color: #004661;
+}
+.light-yellow {
+  background-color: #f2f5b4;
+}
+.washed-blue {
+  background-color: #375764;
+}
+.light-grey {
+  background-color: #d1dce7;
+}
+.light-green {
+  background-color: #b6fbb7;
+}
+.dark-green {
+  background-color: #004239;
+}
+h3 {
+  margin: 0;
+}
