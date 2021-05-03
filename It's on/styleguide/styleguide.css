@@ -1,5 +1,11 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto', sans-serif;
+*/
 body {
-  background-color: #2e2b2bd7;
+  background-color: #758ebb;
 }
 
 h1 {
@@ -55,7 +61,7 @@ h1 {
   display: flex;
 }
 
-.module {
+#colors {
   display: grid;
   grid-template-rows: 2% 1fr 2% 1fr;
   grid-template-columns: 15% 1fr 1fr 1fr;
@@ -162,4 +168,13 @@ h3 {
   text-align: center;
   border-radius: 20px;
   border: 2px solid #E5AB0F;
+}
+
+.popupheader {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+}
+
+#pop-ups {
+  font-family: "Roboto", sans-serif;
 }

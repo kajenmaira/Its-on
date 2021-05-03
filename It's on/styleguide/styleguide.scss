@@ -1,3 +1,10 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
 body {
     background-color: rgb(117, 142, 187);
 }
@@ -53,7 +60,10 @@ h1 {
 .cp {
   display: flex;
 }
-.module {
+
+
+
+#colors {
   display: grid;
   grid-template-rows: 2% 1fr 2% 1fr;
   grid-template-columns: 15% 1fr 1fr 1fr;
@@ -87,6 +97,8 @@ h1 {
 .color-preview__func {
   grid-area: cp-func;
 }
+
+
 
 .block {
   width: 200px;
@@ -127,4 +139,18 @@ h3 {
     text-align: center;
     border-radius: 20px;
     border: 2px solid #E5AB0F;
+}
+
+.popupheader {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+}
+
+#pop-ups {
+    font-family: 'Roboto', sans-serif;
+}
+
+.exit {
+    
+
 }
