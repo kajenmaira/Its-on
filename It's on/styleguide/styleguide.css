@@ -192,7 +192,7 @@ h3 {
   color: bisque;
   height: 100px;
   width: 200px;
-  border-radius: 0 25px 25px 0;
+  border-radius: 25px 0 0 25px;
   border: #eaa900;
 }
 
@@ -204,4 +204,22 @@ h3 {
 .exit {
   height: 20px;
   width: 20px;
+}
+
+.pop-up__its-on {
+  background-color: #00ad93;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #e5ab0f;
+}
+
+.popupheader {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+}
+
+#pop-ups {
+  font-family: "Roboto", sans-serif;
 }
