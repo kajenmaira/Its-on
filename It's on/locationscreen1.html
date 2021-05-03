@@ -20,7 +20,7 @@
        locationscreensstart.addEventListener("click" , () => {
            navigator.geolocation.watchPosition(
                data => {
-                   console.log(data);
+                    console.log(data);
            },
            error => console.log(error), {
                enableHighAccuracy: true
