@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(196, 196, 226);
+    background-color: #E5AB0F;
 }
 
-
-
+h1 {
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+}
 
 .menu {
     text-align: right;
@@ -14,11 +16,13 @@ body {
 .menu__link {
     display: block;
     padding: 0.5rem 2rem;
-    color: rgb(14 14 14);
+    color: rgb(36, 35, 35);
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
 }
 .menu__link:hover, .menu__link.--active {
-    color: rgb(173 31 31);
+    color: rgb(225, 228, 180);
     font-weight: bold;
     top: 0;
     left: 0;
@@ -27,13 +31,15 @@ body {
 
 .menu__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100vw;
     padding: 1rem 2rem;
-    background-color: #ebebeb;
+    background-color: #4DA08F;
+    border-radius: 20px;
     margin: 0 0 1rem 0;
     min-width: 300px;
     justify-items: center;
+
 }
 
 .menu__item {

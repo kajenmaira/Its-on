@@ -1,5 +1,10 @@
 body {
-  background-color: #c4c4e2;
+  background-color: #E5AB0F;
+}
+
+h1 {
+  font-family: "Raleway Dots", cursive;
+  text-align: center;
 }
 
 .menu {
@@ -11,12 +16,14 @@ body {
 .menu__link {
   display: block;
   padding: 0.5rem 2rem;
-  color: #0e0e0e;
+  color: #242323;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
 }
 
 .menu__link:hover, .menu__link.--active {
-  color: #ad1f1f;
+  color: #e1e4b4;
   font-weight: bold;
   top: 0;
   left: 0;
@@ -24,10 +31,11 @@ body {
 
 .menu__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100vw;
   padding: 1rem 2rem;
-  background-color: #ebebeb;
+  background-color: #4DA08F;
+  border-radius: 20px;
   margin: 0 0 1rem 0;
   min-width: 300px;
   justify-items: center;
