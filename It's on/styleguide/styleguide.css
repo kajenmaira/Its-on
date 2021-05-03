@@ -1,10 +1,15 @@
 body {
-  background-color: #E5AB0F;
+  background-color: #e5ab0f;
 }
 
 h1 {
   font-family: "Raleway Dots", cursive;
   text-align: center;
+}
+
+h2,
+h3 {
+  font-family: "Raleway Dots", cursive;
 }
 
 .menu {
@@ -36,7 +41,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100vw;
   padding: 1rem 2rem;
-  background-color: #4DA08F;
+  background-color: #4da08f;
   border-radius: 20px;
   margin: 0 0 1rem 0;
   min-width: 300px;
@@ -51,7 +56,7 @@ h1 {
   display: flex;
 }
 
-.module {
+#colors {
   display: grid;
   grid-template-rows: 2% 1fr 2% 1fr;
   grid-template-columns: 15% 1fr 1fr 1fr;
@@ -116,7 +121,7 @@ h1 {
 }
 
 .teal {
-  background-color: teal;
+  background-color: #079c84;
 }
 
 .deep-yellow {
@@ -149,4 +154,48 @@ h1 {
 
 h3 {
   margin: 0;
+}
+
+.button-preview {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.show-forecast {
+  width: 180px;
+  height: 35px;
+  border-radius: 10px;
+  background: #375764;
+  color: bisque;
+}
+
+.its-on {
+  background-color: #079c84;
+  color: bisque;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 25px 25px 0;
+  border: #eaa900;
+  font-size: 100%;
+}
+
+.somewhere-else {
+  background-color: #004239;
+  color: bisque;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 25px 25px 0;
+  border: #eaa900;
+}
+
+.back {
+  height: 20px;
+  width: 20px;
+}
+
+.exit {
+  height: 20px;
+  width: 20px;
 }
