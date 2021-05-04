@@ -68,6 +68,7 @@ h3 {
   grid-template-columns: 15% 1fr 1fr 1fr;
   grid-template-areas: "brand . bg ." "cp-brand cp-brand cp-bg cp-bg" "btns . func ." "cp-btns cp-btns cp-func cp-func";
 }
+
 .title__brand {
   grid-area: brand;
 }
