@@ -70,27 +70,54 @@ h3 {
 }
 
 .title__brand {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: brand;
 }
+
 .color-preview__brand {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: cp-brand;
 }
+
 .title__bg {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
   grid-area: bg;
 }
+
 .color-preview__bg {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-area: cp-bg;
 }
+
 .title__btns {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   grid-area: btns;
 }
+
 .color-preview__btns {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: cp-btns;
 }
+
 .title__func {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
   grid-area: func;
 }
+
 .color-preview__func {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-area: cp-func;
 }
 
