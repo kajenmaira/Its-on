@@ -5,7 +5,7 @@ font-family: 'Raleway Dots', cursive;
 font-family: 'Roboto', sans-serif;
 */
 body {
-  background-color: #758ebb;
+  background-color: #e5ab0f;
 }
 
 h1 {
@@ -13,8 +13,9 @@ h1 {
   text-align: center;
 }
 
-.main {
-  font-family: "Raleway", sans-serif;
+h2,
+h3 {
+  font-family: "Raleway Dots", cursive;
 }
 
 .menu {
@@ -46,7 +47,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100vw;
   padding: 1rem 2rem;
-  background-color: #4DA08F;
+  background-color: #4da08f;
   border-radius: 20px;
   margin: 0 0 1rem 0;
   min-width: 300px;
@@ -69,54 +70,27 @@ h1 {
 }
 
 .title__brand {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: brand;
 }
-
 .color-preview__brand {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: cp-brand;
 }
-
 .title__bg {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
   grid-area: bg;
 }
-
 .color-preview__bg {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 2;
   grid-area: cp-bg;
 }
-
 .title__btns {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: btns;
 }
-
 .color-preview__btns {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: cp-btns;
 }
-
 .title__func {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
   grid-area: func;
 }
-
 .color-preview__func {
-  -ms-grid-row: 4;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 2;
   grid-area: cp-func;
 }
 
@@ -126,7 +100,7 @@ h1 {
 }
 
 .teal {
-  background-color: teal;
+  background-color: #079c84;
 }
 
 .deep-yellow {
@@ -161,13 +135,57 @@ h3 {
   margin: 0;
 }
 
+.button-preview {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.show-forecast {
+  width: 180px;
+  height: 35px;
+  border-radius: 10px;
+  background: #375764;
+  color: bisque;
+}
+
+.its-on {
+  background-color: #079c84;
+  color: bisque;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 25px 25px 0;
+  border: #eaa900;
+  font-size: 100%;
+}
+
+.somewhere-else {
+  background-color: #004239;
+  color: bisque;
+  height: 100px;
+  width: 200px;
+  border-radius: 25px 0 0 25px;
+  border: #eaa900;
+}
+
+.back {
+  height: 20px;
+  width: 20px;
+}
+
+.exit {
+  height: 20px;
+  width: 20px;
+}
+
 .pop-up__its-on {
-  background-color: #00AD93;
+  background-color: #00ad93;
   height: 300px;
   width: 250px;
   text-align: center;
   border-radius: 20px;
-  border: 2px solid #E5AB0F;
+  border: 2px solid #e5ab0f;
 }
 
 .popupheader {
