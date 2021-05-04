@@ -2,12 +2,12 @@
     @forward 'module_name';
 */
 body {
-  background: #15465F;
+  background: #15465f;
 }
 
 /*Locationscreen1 */
 .bodylocationscreen {
-  background: #F4F1B7;
+  background: #f4f1b7;
 }
 
 a {
@@ -16,4 +16,14 @@ a {
 
 a:visited {
   text-decoration: none;
+}
+
+.pop-up-change {
+  width: 300px;
+  height: 500px;
+  background-color: blue;
+}
+
+.maincard {
+  display: none;
 }

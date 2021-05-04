@@ -75,13 +75,17 @@ loadData();
         // Først hent data fra vejr api, er gemt i variablen data
         let windDataString = data.CurrentData.windText;
          // f.ek.s "4 m/s Vest"
-// Split string til et array, split på mellemrum " "
-let windDataArray = windDataString.split(" "); 
-// Konverter første del af array fra string til tal, f.eks. "4" til 4
-let currentWind = parseInt(windDataArray[0]);
-// Nu kan wind bruges til comparison, f.eks. wind>20
+         // Split string til et array, split på mellemrum " "
+        let windDataArray = windDataString.split(" "); 
+        // Konverter første del af array fra string til tal, f.eks. "4" til 4
+        let currentWind = parseInt(windDataArray[0]);
+        // Nu kan wind bruges til comparison, f.eks. wind>20
         // update the temperature
         wind.textContent = currentWind;
+
+        if (currentWind > 4) {
+            section.classList.add('pop-up-change');
+        }
     }
 
 
