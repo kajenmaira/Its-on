@@ -100,7 +100,7 @@ const maincard = document.querySelector(".maincard");
         } 
         else if (currentWind < 10) {
             maincard.classList.add("change");
-            maincard.innerHTML = `<h2 class="maincard__firsttext">
+            maincard.innerHTML = `<h2 class="maincard__secondtext">
             IT'S NEVER OFF!
         </h2>
         <p class="maincard__secondtext">  
