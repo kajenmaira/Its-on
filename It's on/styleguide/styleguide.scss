@@ -204,7 +204,9 @@ ul {
     }
 
     h1 {
-        padding-top: 2em;
+        padding-top: 7px;
+        padding-left: 3em;
+        padding-right: 2em;
     }
 
     .navbarsection {
@@ -252,6 +254,7 @@ ul {
 
     .change .line-1 {
     transform: rotateZ(-405deg) translate(-8px, 6px);
+    background-color: #e8e384;
 }
 
     .change .line-2 {
@@ -260,6 +263,7 @@ ul {
 
    .change .line-3 {
     transform: rotateZ(405deg) translate(-8px, -6px);
+    background-color: #e8e384;
 }
 
   .nav-list {
@@ -282,7 +286,7 @@ ul {
 }
 
   .nav-link:hover {
-    color: rgb(43, 41, 40);
+    color: #e8e384;
 }
 
 }
