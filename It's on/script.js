@@ -66,6 +66,7 @@ loadData();
             .then(data => updateHtml(data));
     }
 
+const maincard = document.querySelector(".maincard");
 
     function updateHtml(data) {
         console.log('received the following data:',data);
@@ -83,9 +84,33 @@ loadData();
         // update the temperature
         wind.textContent = currentWind;
 
-        if (currentWind > 4) {
-            section.classList.add('pop-up-change');
+        maincard.classList.remove("change");
+
+        if (currentWind > 10) {
+            maincard.classList.add("change");
+            maincard.innerHTML = `<h2 class="maincard__firsttext">
+            IT'S ON!
+        </h2>
+        <p class="maincard__secondtext">  
+            - Take your board - <br>
+            - leave work - <br>
+            - go surf! - 
+        </p>`
+        } 
+        else if (currentWind < 10) {
+            maincard.classList.add("change");
+            maincard.innerHTML = `<h2 class="maincard__firsttext">
+            IT'S OFF!
+        </h2>
+        <p class="maincard__secondtext">  
+            - Take your board - <br>
+            - leave work - <br>
+            - go surf! - 
+        </p>`
         }
+        /*else {
+            maincard.classList.remove("change");
+        }*/
     }
 
 

@@ -18,12 +18,11 @@ a:visited {
   text-decoration: none;
 }
 
-.pop-up-change {
-  width: 300px;
-  height: 500px;
-  background-color: blue;
+.maincard {
+  position: fixed;
+  left: -300px;
 }
 
-.maincard {
-  display: none;
+.change {
+  left: 0;
 }
