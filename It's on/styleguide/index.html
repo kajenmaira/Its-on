@@ -17,22 +17,59 @@
     <header>
         <h1> STYLEGUIDE FOR WEB-APP 'ITS ON' </h1>
 
+        <section class="navbarsection">
+            <nav class="navbar">
+                <section class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    
+                </section>
+    
+                <ul class="nav-list"> 
+                    
+                    <li class="nav-item">
+                        <a href="#Colors" class="nav-link">Colors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Background-Images" class="nav-link">Backgrounds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Logo" class="nav-link">Logo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Buttons" class="nav-link">Buttons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Pop-Ups" class="nav-link">Pop-Ups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Fonts" class="nav-link">Fonts</a>
+                    </li>
+                </ul>
+    
+            </nav>
+        </section>
+
         <nav class="menu">
             <ul class="menu__list">
                 <li class="menu__item">
                     <a href="#colors" class="menu__link">Colors</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#buttons" class="menu__link">Buttons</a>
+                    <a href="#Background-Images" class="menu__link">Backgrounds</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#fonts" class="menu__link">Fonts</a>
+                    <a href="#Logo" class="menu__link">Logo</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#pop-ups" class="menu__link">Pop-ups</a>
+                    <a href="#Buttons" class="menu__link">Buttons</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#forecast" class="menu__link">Forecast</a>
+                    <a href="#Pop-Ups" class="menu__link">Pop-Ups</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Fonts" class="menu__link">Fonts</a>
                 </li>
             </ul>
         
@@ -41,32 +78,149 @@
 
     <main>
         <section class="colors">
-        <h2>Colors</h2>
-        <ul class="colorlist">
-            <h3>Background</h3>
-            <li class="color__oceanblue">
-                <p>Oceanblue</p>
-    
+        <h2> <hr> Colors</h2>
+        <ul class="list ulcolors">
+            <li> 
+                <h3>Text Main & City</h3>
+                <p class="color__darkgrey preview">
+                    Dark Grey <br> #30332B
+                </p>
             </li>
-            <h3>Background-Color</h3>
-            <li class="color__nightblue">
-                <p>Nightblue</p>
-            </li><h3>Background-Color Loadingpage</h3>
-            <li class="color__nightblue">
-                <p>Nightblue</p>
-            </li><h3>Background-Color Loadingpage</h3>
-            <li class="color__nightblue">
-                <p>Nightblue</p>
+
+           <li> 
+                <h3>Background</h3>
+                <p class="color__oceanblue preview">
+                    Oceanblue <br> #15465F
+                </p>
             </li>
+
+            <li> 
+                <h3>Cityinput</h3>
+                <p class="color__teal preview">
+                    Teal <br> #64b5a3
+                </p>
+            </li>
+
+            <li> 
+                <h3>Forecast-Button</h3>
+                <p class="color__yellowmellow preview">
+                    Yellowmellow <br> #E8E384
+                </p>
+            </li>
+
+            <li>
+                <h3>'Choose City'</h3>
+                <p class="color__pastelyellow preview">
+                    Pastelyellow <br> #E2F2BD
+                </p>
+            </li>
+
+        </ul>
+        </section>
+
+        <section class="Backgroundimages">
+        <h2> <hr> Background-Images</h2>
+        <ul class="list ulbackground">
+            <li> 
+                 <h3>Loadingpage</h3>
+                 <p class="background__loadingpage img">
+                     Waves
+                 </p>
+             </li>
+ 
+             <li> 
+                 <h3>IT'S ON</h3>
+                 <p class="background__itson img">
+                     Barreling Waves
+                 </p>
+             </li>
+
+             <li> 
+                <h3>IT'S OFF</h3>
+                <p class="background__itsoff img">
+                    Flat Water
+                </p>
+            </li>
+         </ul>
+        </section>
+
+        <section class="Logo" >
+            <h2> <hr> Logo</h2>
+            <img class="logoimg" src="img/itsonlogo-new-new.png" alt="Logo with two surfboards and 'it's on' text">
+        </section>
+
+        <section class="buttons" >
+        <h2> <hr> Buttons</h2>
+        <ul class="list buttons">
+            <li class="buttonscenter"> 
+                 <h3>City Input</h3>
+                 <p class="button__cityselector button">
+                     Klitmøller
+                 </p>
+             </li>
+ 
+             <li class="buttonscenter"> 
+                 <h3>Forecast</h3>
+                 <p class="button__forecast button">
+                     Watch forecast
+                 </p>
+             </li>
+         </ul>
+        </section>
+
+        
+        <section class="popup" >
+        <h2> <hr> Pop-Ups</h2> 
+        <p class="popup__example list" >(boarder-radius 15px)</p>
+        </section>
+
+        <section class="fonts">
+        <h2> <hr> Fonts</h2>
+        <ul class="list fonts">
+            <li> 
+                <h3>Choose City</h3>
+                <p class="fonts__roboto">
+                    font-family: "Roboto", sans-serif;
+                </p>
+            </li>
+
+           <li> 
+                <h3>City Input</h3>
+                <p class="fonts__fjallaone">
+                    font-family: "Fjalla One", sans-serif;
+                </p>
+            </li>
+
+            <li> 
+                <h3>City Output</h3>
+                <p class="fonts__ralewaydots">
+                    font-family: "Raleway Dots", cursive;
+                </p>
+            </li>
+
+            <li> 
+                <h3>Main</h3>
+                <p class="fonts__fjallaone">
+                    font-family: "Fjalla One", sans-serif;
+                </p>
+            </li>
+
         </ul>
         
         </section>
-        <h2>Background-Images</h2>
-        <h2>Logo</h2>
-        <h2>Buttons</h2>
-        <h2>Pop-Up</h2>
-        <h2>Fonts</h2>
-
     </main>
+
+    <script>
+
+const menuIcon = document.querySelector(".hamburger-menu");
+const navbar = document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", () => {
+    navbar.classList.toggle("change");
+});
+
+
+
+    </script>
 </body>
 </html>
