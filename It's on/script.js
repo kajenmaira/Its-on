@@ -22,7 +22,7 @@
         const apiBaseUrl = 'https://vejr.eu/api.php';
 
         // The location option, setting the city to get weather data for
-        let apiLocation = 'Vejen';
+        let apiLocation = 'Klitmøller';
 
         // The degree option, setting the temperature scale to use
         let apiDegree = 'c';
@@ -82,7 +82,7 @@ const maincard = document.querySelector(".maincard");
         let currentWind = parseInt(windDataArray[0]);
         // Nu kan wind bruges til comparison, f.eks. wind>20
         // update the temperature
-        wind.textContent = currentWind;
+        
 
         maincard.classList.remove("change");
 
@@ -95,18 +95,20 @@ const maincard = document.querySelector(".maincard");
             - Take your board - <br>
             - leave work - <br>
             - go surf! - 
-        </p>`
+        </p>
+        <button class="forecast-btn">Forecast</button>`
         } 
         else if (currentWind < 10) {
             maincard.classList.add("change");
             maincard.innerHTML = `<h2 class="maincard__firsttext">
-            IT'S OFF!
+            IT'S NEVER OFF!
         </h2>
         <p class="maincard__secondtext">  
-            - Take your board - <br>
-            - leave work - <br>
-            - go surf! - 
-        </p>`
+            .. BUT today <br>
+            it's on  <br>
+            somewhere else. 
+        </p>
+        <button class="forecast-btn">Forecast</button>`
         }
         /*else {
             maincard.classList.remove("change");
