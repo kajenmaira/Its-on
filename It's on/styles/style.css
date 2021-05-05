@@ -118,7 +118,7 @@ body {
 
 /* Loadingpage */
 .bodyloadingscreen {
-  background: url(loadingpage.png) no-repeat center center fixed;
+  background: url(background-loadingpage-newnew.png) no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
 }
