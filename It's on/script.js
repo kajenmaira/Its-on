@@ -98,7 +98,7 @@ const maincard = document.querySelector(".maincard");
             - leave work - <br>
             - go surf! - 
         </p>
-        <button class="forecast-btn">Forecast</button>
+        <button class="forecast-btn">Show me the forecast</button>
         </section>`
         
         } 
@@ -106,7 +106,7 @@ const maincard = document.querySelector(".maincard");
             maincard.classList.add("change");
             maincard.innerHTML = `
         <section class="maincard__itsoff">
-            <h2 class="maincard__firsttext">
+            <h2 class="maincard__offtext">
                 IT'S NEVER OFF!
             </h2>
             <p class="maincard__secondtext">  
@@ -114,7 +114,7 @@ const maincard = document.querySelector(".maincard");
                 it's on  <br>
                 somewhere else. 
             </p>
-            <button class="forecast-btn">Forecast</button>
+            <button class="forecast-btn">Show me the forecast</button>
         </section>`
         }
         /*else {

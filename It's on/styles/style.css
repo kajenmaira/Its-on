@@ -29,6 +29,7 @@ body {
   text-align: center;
   justify-self: center;
   align-self: center;
+  border: none;
 }
 
 .weatherDisplay {
@@ -88,6 +89,9 @@ body {
   font-family: "Fjalla One", sans-serif;
   justify-self: center;
   align-self: center;
+  border: none;
+  color: #30332b;
+  margin: 5%;
 }
 
 .change {
@@ -95,13 +99,21 @@ body {
 }
 
 .maincard__firsttext {
-  font-size: 200%;
-  margin-bottom: 8%;
+  font-size: 230%;
+  margin-bottom: 0px;
+  color: #30332b;
+}
+
+.maincard__offtext {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: #30332b;
 }
 
 .maincard__secondtext {
-  font-size: 90%;
-  margin-top: 0;
+  font-size: 80%;
+  color: #30332b;
+  margin: 5px;
 }
 
 /* Loadingpage */
