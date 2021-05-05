@@ -4,7 +4,9 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Raleway Dots', cursive;
 font-family: 'Roboto', sans-serif;
 */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
   background-color: #F1D9C0;
 }
