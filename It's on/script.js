@@ -88,7 +88,9 @@ const maincard = document.querySelector(".maincard");
 
         if (currentWind > 10) {
             maincard.classList.add("change");
-            maincard.innerHTML = `<h2 class="maincard__firsttext">
+            maincard.innerHTML = `
+            <section class="maincard__itson">
+            <h2 class="maincard__firsttext">
             IT'S ON!
         </h2>
         <p class="maincard__secondtext">  
@@ -96,19 +98,24 @@ const maincard = document.querySelector(".maincard");
             - leave work - <br>
             - go surf! - 
         </p>
-        <button class="forecast-btn">Forecast</button>`
+        <button class="forecast-btn">Forecast</button>
+        </section>`
+        
         } 
         else if (currentWind < 10) {
             maincard.classList.add("change");
-            maincard.innerHTML = `<h2 class="maincard__secondtext">
-            IT'S NEVER OFF!
-        </h2>
-        <p class="maincard__secondtext">  
-            .. BUT today <br>
-            it's on  <br>
-            somewhere else. 
-        </p>
-        <button class="forecast-btn">Forecast</button>`
+            maincard.innerHTML = `
+        <section class="maincard__itsoff">
+            <h2 class="maincard__firsttext">
+                IT'S NEVER OFF!
+            </h2>
+            <p class="maincard__secondtext">  
+                .. BUT today <br>
+                it's on  <br>
+                somewhere else. 
+            </p>
+            <button class="forecast-btn">Forecast</button>
+        </section>`
         }
         /*else {
             maincard.classList.remove("change");

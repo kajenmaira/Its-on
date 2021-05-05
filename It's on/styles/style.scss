@@ -11,7 +11,6 @@ body {
 .cityselector {
   display: flex;
   font-family: "Roboto", sans-serif;
-
   flex-direction: column;
   align-items: center;
   color: #e2f2bd;
@@ -20,6 +19,7 @@ body {
 
 .cityselector__title {
   margin: 10px;
+  margin-top: 10%;
 }
 
 .citySelector__input {
@@ -40,15 +40,14 @@ body {
   align-items: center;
   color: #e2f2bd;
   font-family: "Raleway Dots", cursive;
+  font-size: 88%;
 }
-
 .maincard {
   position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   left: -300px;
-  background-image: url(ITSONimg.png);
   width: 90vw;
   height: 65%;
   margin-top: 15px;
@@ -56,21 +55,60 @@ body {
   font-family: "Fjalla One", sans-serif;
   font-size: 150%;
 }
+.maincard__itsoff {
+  background: url(Itsoff-img.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: -300px;
+  width: 90vw;
+  height: 98vh;
+  border-radius: 15px;
+}
+.maincard__itson {
+  background: url(ITSONimg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: -300px;
+  width: 90vw;
+  height: 98vh;
+  border-radius: 15px;
+}
+
 .forecast-btn {
   width: 150px;
   height: 35px;
   border-radius: 12px;
   background-color: #e8e384;
+  font-family: "Fjalla One", sans-serif;
+  justify-self: center;
+  align-self: center;
 }
 .change {
   left: 5%;
 }
-
+.maincard__firsttext {
+  font-size: 200%;
+  margin-bottom: 8%;
+}
 .maincard__secondtext {
-  font-size: larger;
+  font-size: 90%;
+  margin-top: 0;
 }
 
 /* Loadingpage */
+<<<<<<< HEAD
 .bodyloadingscreen{
     background: url(background-loadingpage-newnew.png) no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -78,25 +116,45 @@ body {
 -o-background-size: cover;
 background-size: cover;
 background-attachment: fixed;
+=======
+.bodyloadingscreen {
+  background: url(loadingpage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> 2b1daa7acfec1aeb708a41c2f8d89e7c70281d19
 }
 .loadingscreen__img {
-    -webkit-animation: spin 8s linear infinite; /* Safari */
-    animation: spin 8s linear infinite;
-    position: fixed;
-    top:-100%; right:-100%; left:-100%; bottom:-100%;
-    margin:auto;
-    z-index:0;
-    width: 300px;
-    opacity: 0.8;
+  -webkit-animation: spin 8s linear infinite; /* Safari */
+  animation: spin 8s linear infinite;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  left: -100%;
+  bottom: -100%;
+  margin: auto;
+  z-index: 0;
+  width: 300px;
+  opacity: 0.8;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
   }
-  
-  /* Safari */
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
+  100% {
+    transform: rotate(360deg);
+  }
+}
