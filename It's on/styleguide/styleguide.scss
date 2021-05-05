@@ -6,21 +6,23 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-  background-color: #e5ab0f;
+  background-color: #F1D9C0;
 }
 
-h1 {
-  font-family: "Raleway Dots", cursive;
+h1{
+  font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-h2,
-h3 {
-  font-family: "Raleway Dots", cursive;
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
+
 .menu {
   text-align: right;
   display: flex;
   justify-content: flex-start;
+
 }
 
 .menu__link {
@@ -38,7 +40,8 @@ h3 {
   font-weight: bold;
   top: 0;
   left: 0;
-  color: rgb(225, 228, 180);
+  text-decoration: underline rgb(36, 35, 35);
+
 }
 
 .menu__list {
@@ -46,17 +49,29 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100vw;
   padding: 1rem 2rem;
-  background-color: #4da08f;
-  border-radius: 20px;
   margin: 0 0 1rem 0;
   min-width: 300px;
   justify-items: center;
+  margin: 0;
 }
 
 .menu__item {
   display: block;
 }
+
+ul {
+    list-style-type:none;
+}
+
+.colorlist {
+    padding-left: 3px;
+}
+
+
+
+
 // COLORS STYLING---------------------------
+/*
 .cp {
   display: flex;
 }
@@ -183,3 +198,4 @@ h3 {
 #pop-ups {
   font-family: "Roboto", sans-serif;
 }
+*/ 
