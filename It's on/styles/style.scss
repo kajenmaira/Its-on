@@ -6,20 +6,6 @@ body {
   background: #15465f;
 }
 
-/*Locationscreen1 */
-
-.bodylocationscreen {
-  background: #f4f1b7;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
 // - - - Main Styling - - -
 
 .cityselector {
@@ -79,3 +65,32 @@ a:visited {
 .maincard__secondtext {
   font-size: larger;
 }
+
+/* Loadingpage */
+
+.bodyloadingscreen {
+    background-image: url(img/Background-loadingpage.png);
+}
+
+.loadingscreen__img {
+    -webkit-animation: spin 8s linear infinite; /* Safari */
+    animation: spin 8s linear infinite;
+    position: fixed;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+    width: 300px;
+    opacity: 0.8;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+

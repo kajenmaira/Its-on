@@ -5,19 +5,6 @@ body {
   background: #15465f;
 }
 
-/*Locationscreen1 */
-.bodylocationscreen {
-  background: #f4f1b7;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
 .cityselector {
   display: flex;
   font-family: "Roboto", sans-serif;
@@ -75,4 +62,33 @@ a:visited {
 
 .maincard__secondtext {
   font-size: larger;
+}
+
+/* Loadingpage */
+.bodyloadingscreen {
+  background-image: url(img/Background-loadingpage.png);
+}
+
+.loadingscreen__img {
+  /* Safari */
+  animation: spin 8s linear infinite;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  left: -100%;
+  bottom: -100%;
+  margin: auto;
+  z-index: 0;
+  width: 300px;
+  opacity: 0.8;
+}
+
+/* Safari */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
