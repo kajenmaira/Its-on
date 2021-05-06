@@ -119,6 +119,7 @@ body {
 }
 
 /* Loadingpage */
+<<<<<<< Updated upstream
 .bodyloadingscreen{
     background: url(background-loadingpage-newnew.png) no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -126,6 +127,16 @@ body {
 -o-background-size: cover;
 background-size: cover;
 background-attachment: fixed;
+=======
+.bodyloadingscreen {
+  background: url(background-loadingpage-newnew.png) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> Stashed changes
 }
 .loadingscreen__img {
   -webkit-animation: spin 8s linear infinite; /* Safari */
