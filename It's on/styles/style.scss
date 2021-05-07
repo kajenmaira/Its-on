@@ -43,64 +43,44 @@ body {
   font-family: "Raleway Dots", cursive;
   font-size: 88%;
 }
+.weatherDisplay__wind {
+  margin-top: 0;
+}
+.weatherDisplay__city {
+  margin-bottom: 0;
+}
 .maincard {
   position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   left: -300px;
-  width: 90vw;
+
   height: 65%;
   margin-top: 15px;
-  border-radius: 15px;
   font-family: "Fjalla One", sans-serif;
   font-size: 150%;
 }
-.maincard__itsoff {
+.maincard__itsoff,
+.maincard__itson {
   background: url(Itsoff-img.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-position: right;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   left: -300px;
-  width: 90vw;
+  width: 94vw;
   height: 98vh;
   border-radius: 15px;
 }
 .maincard__itson {
   background: url(ITSONimg.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  left: -300px;
-  width: 90vw;
-  height: 98vh;
-  border-radius: 15px;
 }
 
-.forecast-btn {
-  width: 150px;
-  height: 35px;
-  border-radius: 12px;
-  background-color: #e8e384;
-  font-family: "Fjalla One", sans-serif;
-  justify-self: center;
-  align-self: center;
-  border: none;
-  color: #30332b;
-  margin: 5%;
-}
 .change {
-  left: 5%;
+  left: 3%;
 }
 .maincard__firsttext {
   font-size: 230%;
@@ -113,12 +93,13 @@ body {
   color: #30332b;
 }
 .maincard__secondtext {
-  font-size: 80%;
+  font-size: 100%;
   color: #30332b;
-  margin: 5px;
+  margin: 30px;
 }
 
 /* Loadingpage */
+<<<<<<< Updated upstream
 .bodyloadingscreen{
     background: url(background-loadingpage-newnew.png) no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -126,6 +107,16 @@ body {
 -o-background-size: cover;
 background-size: cover;
 background-attachment: fixed;
+=======
+.bodyloadingscreen {
+  background: url(background-loadingpage-newnew.png) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+>>>>>>> Stashed changes
 }
 .loadingscreen__img {
   -webkit-animation: spin 8s linear infinite; /* Safari */

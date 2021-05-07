@@ -73,6 +73,7 @@ const maincard = document.querySelector(".maincard");
 
         // update name of the city with the currently selected one
         city.textContent = data.LocationName;
+        wind.textContent = data.CurrentData.windText;
         // Først hent data fra vejr api, er gemt i variablen data
         let windDataString = data.CurrentData.windText;
          // f.ek.s "4 m/s Vest"
@@ -98,7 +99,6 @@ const maincard = document.querySelector(".maincard");
             - leave work - <br>
             - go surf! - 
         </p>
-        <button class="forecast-btn">Show me the forecast</button>
         </section>`
         
         } 
@@ -114,7 +114,6 @@ const maincard = document.querySelector(".maincard");
                 it's on  <br>
                 somewhere else. 
             </p>
-            <button class="forecast-btn">Show me the forecast</button>
         </section>`
         }
         /*else {
